@@ -1,0 +1,9 @@
+---
+  - name: test playbook
+    hosts: all
+    tasks: 
+      - name: print welcome
+        debug:
+          msg: "Welcomt to our World"
+---
+
